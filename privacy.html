@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendar Sync Privacy</title>
+<style>
+  :root { --bg: #0f1420; --card: #161d2c; --ink: #e6e9f0; --muted: #9aa3b5; --accent: #e0a84f; --line: #263047; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f5f2ea; --card: #fff; --ink: #1a2030; --muted: #5b6475; --accent: #a8701c; --line: #e4ddcc; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; }
+  a { color: var(--accent); }
+  footer { margin-top: 32px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <div class="card">
+    <p>Calendar Sync is a personal tool used only by its owner, on their own computer.</p>
+    <p>With the owner's consent it uses the Google Calendar scope
+    <code>calendar.events</code> to show the owner's events and to save events the owner creates
+    or edits. Calendar data stays on the owner's computer and goes only to Google. It is never
+    sold, shared, used for advertising, or used to train AI or machine learning models.</p>
+    <p>Its use of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+    User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>Access can be revoked at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  </div>
+  <footer><a href="index.html">Calendar Sync</a></footer>
+</main>
+</body>
+</html>
